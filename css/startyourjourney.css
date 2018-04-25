@@ -1,0 +1,95 @@
+body {
+	background-color: darkorange;
+	font-family: 'Gamja Flower', cursive;
+}
+
+.wrapper {
+	display: flex;
+}
+
+header img {
+	margin-top: 0px;
+
+}
+
+.info1, .info2, .info3, .info4,.info5, .info6, .info7, .info8 {
+  flex: 1;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: 'Gamja Flower', cursive;
+font-family: 'Nunito', sans-serif;
+}
+
+#title {
+  font-family: 'Gamja Flower', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Jua', sans-serif;
+}
+
+#titleS {
+  font-family: 'Gamja Flower', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Jua', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+
+/*img:hover {
+	background: url(../img/happiness.jpg) no-repeat;
+	background-size: cover;
+}*/
+
+aside {
+	background-color: darkturquoise;
+	width: 200px;
+	height: 2370px;
+	align-content: center;
+	padding: 80px;
+}
+
+.button1, .button2, .button3, .button4, .button5  {
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+}
+
+a:hover {
+    background-color: darkorange;
+}
+
+a {
+	text-decoration: none;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    /*text-align: center;*/
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
