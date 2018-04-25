@@ -30,10 +30,18 @@ img:hover {
 	
 }
 
+#tt {
+  font-family: 'Gamja Flower', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Jua', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Kaushan Script', cursive;
+}
+
 aside {
 	background-color: darkturquoise;
 	width: 200px;
-	height: 500px;
+	height: 510px;
 	align-content: center;
 	padding: 80px;
 }
